@@ -1,0 +1,34 @@
+body{
+    background-color: #E8DCB5;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 1;
+    font-style: normal;
+    color: #0A2B58;
+    animation: fadeIn 2s;
+    line-height: 35px;
+}
+h1{
+    text-align: center;
+}
+table{
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#resource-header{
+    font-size: 25px;
+    border-bottom: 2px solid #0A2B58;
+}
+#location-header{
+    font-size: 25px;
+    border-bottom: 2px solid #0A2B58;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
